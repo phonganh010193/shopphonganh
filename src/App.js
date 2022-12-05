@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import NavbarShop from "./component/topbar/headerNavbar";
+import Logo from "./component/topbar/headerLogo";
+import HeaderShop from "./component/topbar/headerShop";
+import "./styles/header.css";
+import Sidebar from "./component/sidebar";
+import NuocHoaNam from "./views/NuocHoaNam";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderShop />
+      <Logo />
+      <NavbarShop />
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-lg-8 app-sidebar">
+            <Sidebar />
+            <NuocHoaNam />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
