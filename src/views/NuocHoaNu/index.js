@@ -1,14 +1,14 @@
 import IMAGE from "../../contact";
 import "../../styles/nuochoanam.css";
 
-function NuocHoaNam() {
+function NuocHoaNu() {
     return (
         <div className="men-container">
-            <p style={{borderBottom:"1px solid gray"}}>Trang chủ / <span style={{color: "#2d8356"}}>Nước hoa Nam</span></p>
-            <h4>NƯỚC HOA NAM</h4>
+            <p style={{borderBottom:"1px solid gray"}}>Trang chủ / <span style={{color: "#2d8356"}}>Nước hoa Nữ</span></p>
+            <h4>NƯỚC HOA NỮ</h4>
             <div className="men-list">
                 <div className="men-item">
-                    <img src={IMAGE.ROJA_ELYSIUM_POUR_HOMME} className="men-image" alt="" />
+                    <img src={IMAGE.DIOE_GIRL} className="men-image" alt="" />
                     <div class="btn-children">
                         <div class="btn-content">
                             <button>Mua sản phẩm</button>
@@ -22,7 +22,7 @@ function NuocHoaNam() {
                     </div>
                 </div>
                 <div className="men-item">
-                    <img src={IMAGE.BRIT} className="men-image" alt="" />
+                    <img src={IMAGE.BURBERRY_GIRL} className="men-image" alt="" />
                     <div class="btn-children">
                         <div class="btn-content">
                             <button>Mua sản phẩm</button>
@@ -36,7 +36,7 @@ function NuocHoaNam() {
                     </div>
                 </div>
                 <div className="men-item">
-                    <img src={IMAGE.DOLCE_GABBANA} className="men-image" alt="" />
+                    <img src={IMAGE.GOODGIRL} className="men-image" alt="" />
                     <div class="btn-children">
                         <div class="btn-content">
                             <button>Mua sản phẩm</button>
@@ -50,7 +50,7 @@ function NuocHoaNam() {
                     </div>
                 </div>
                 <div className="men-item">
-                    <img src={IMAGE.versace} className="men-image" alt="" />
+                    <img src={IMAGE.MONT_BALNC} className="men-image" alt="" />
                     <div class="btn-children">
                         <div class="btn-content">
                             <button>Mua sản phẩm</button>
@@ -145,4 +145,4 @@ function NuocHoaNam() {
     );
 }
 
-export default NuocHoaNam;
+export default NuocHoaNu;

@@ -5,6 +5,9 @@ import HeaderShop from "./component/topbar/headerShop";
 import "./styles/header.css";
 import Sidebar from "./component/sidebar";
 import NuocHoaNam from "./views/NuocHoaNam";
+import NuocHoaNu from "./views/NuocHoaNu";
+import { Route, Routes } from "react-router-dom";
+import Footer from "./component/footer";
 function App() {
   return (
     <div className="App">
@@ -15,10 +18,14 @@ function App() {
         <div className="row">
           <div className="col-lg-8 app-sidebar">
             <Sidebar />
-            <NuocHoaNam />
+            <Routes>
+              <Route path="/" element={<NuocHoaNam />}></Route>
+              <Route path="/perfume-girl" element={<NuocHoaNu />}></Route>
+            </Routes>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

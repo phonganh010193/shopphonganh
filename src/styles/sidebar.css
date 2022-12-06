@@ -1,5 +1,5 @@
 .sidebar {
-    width: 280px;
+  width: 280px;
 }
 
 .sidebar-title {
@@ -7,13 +7,13 @@
   flex-direction: row;
   align-items: center;
   height: 50px;
-  background-color: green;
+  background-color: #2d8356;
 
 }
 
-.sidebar-title h4 {
+.sidebar-title h5 {
   margin: 0;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .bi-list {
@@ -23,7 +23,7 @@
 
 .sidebar-content {
   width: 280px;
-  height: 300px;
+  height: 400px;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,17 @@
   line-height: 50px;
   color: rgb(161, 161, 161);
 }
+
+.sidebar-content ul li a:hover {
+  color: #2d8356;
+  text-decoration: none;
+}
+
+.sidebar-content ul li a:focus {
+  color: #2d8356;
+  text-decoration: none;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -58,7 +69,7 @@
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: green; 
+    background: #2d8356; 
     border-radius: 10px;
   }
   
