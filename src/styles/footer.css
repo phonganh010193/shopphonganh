@@ -2,6 +2,10 @@
     background-color: #252525;
 }
 
+.footer-logo {
+    width: 250px ;
+}
+
 .footer-logo img {
     width: 200px;
     margin-bottom: 30px;
@@ -24,6 +28,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer-logo ul li:first-child p {
+    width: 175px;
 }
 
 .footer-logo ul li p {
@@ -69,7 +77,7 @@
 }
 
 .footer-map a img {
-    width: 320px;
+    width: 280px;
 }
 
 .fanpage h5 {

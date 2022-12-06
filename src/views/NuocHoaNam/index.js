@@ -18,7 +18,7 @@ function NuocHoaNam() {
                     <p>ROJA ELYSIUM POUR HOMME</p>
                     <div className="price">
                         <p>5.700.000 đ</p>
-                        <p> 8.600.000 đ</p>
+                        <p>8.600.000 đ</p>
                     </div>
                 </div>
                 <div className="men-item">
@@ -32,7 +32,7 @@ function NuocHoaNam() {
                     <p>BUBERRY BRIT FOR MEN</p>
                     <div className="price">
                         <p>5.700.000 đ</p>
-                        <p> 8.600.000 đ</p>
+                        <p>8.600.000 đ</p>
                     </div>
                 </div>
                 <div className="men-item">
@@ -60,7 +60,7 @@ function NuocHoaNam() {
                     <p>VERSACE EROS FOR MEN</p>
                     <div className="price">
                         <p>5.700.000 đ</p>
-                        <p> 8.600.000 đ</p>
+                        <p>8.600.000 đ</p>
                     </div>
                 </div>
                 <div className="men-item">
@@ -74,7 +74,7 @@ function NuocHoaNam() {
                     <p>CHANEl BLEU DE CHANEL EAU DE TOILETTE</p>
                     <div className="price">
                         <p>5.700.000 đ</p>
-                        <p> 8.600.000 đ</p>
+                        <p>8.600.000 đ</p>
                     </div>
                 </div>
                 <div className="men-item">
@@ -88,7 +88,7 @@ function NuocHoaNam() {
                     <p>HERMES TERRE D’HERMES EAU DE TOILETTE</p>
                     <div className="price">
                         <p>5.700.000 đ</p>
-                        <p> 8.600.000 đ</p>
+                        <p>8.600.000 đ</p>
                     </div>
                 </div>
                 <div className="men-item">
@@ -102,7 +102,7 @@ function NuocHoaNam() {
                     <p>LE LABO ANOTHER 13</p>
                     <div className="price">
                         <p>5.700.000 đ</p>
-                        <p> 8.600.000 đ</p>
+                        <p>8.600.000 đ</p>
                     </div>
                 </div>
                 <div className="men-item">
@@ -116,7 +116,7 @@ function NuocHoaNam() {
                     <p>CHANEL Allure Homme Sport</p>
                     <div className="price">
                         <p>5.700.000 đ</p>
-                        <p> 8.600.000 đ</p>
+                        <p>8.600.000 đ</p>
                     </div>
                 </div>
                 <div className="men-item">
@@ -130,7 +130,7 @@ function NuocHoaNam() {
                     <p>FRANCK BOCLET COCAINE</p>
                     <div className="price">
                         <p>5.700.000 đ</p>
-                        <p> 8.600.000 đ</p>
+                        <p>8.600.000 đ</p>
                     </div>
                 </div>
             </div>
