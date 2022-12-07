@@ -20,7 +20,12 @@ const IMAGE = {
     DIOE_GIRL: require('../assets/girl-dior.webp'),
     GOODGIRL: require('../assets/goodgirl.webp'),
     MONT_BALNC: require('../assets/mont-balnc.webp'),
-    BURBERRY_GIRL: require('../assets/BURBERRY-GIRL.webp')
+    BURBERRY_GIRL: require('../assets/BURBERRY-GIRL.webp'),
+
+    // home page
+    BACK_FRIDAY_MEN: require('../assets/back friday men.webp'),
+    BACK_FRIDAY_WOMMEN: require('../assets/Back friday girl.webp'),
+    NUOC_HOA_CHIET: require('../assets/compo chiet.webp'),
 }
 
 export default IMAGE;

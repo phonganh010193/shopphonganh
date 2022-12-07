@@ -33,7 +33,7 @@
   }
   
   .topnav a:focus {
-    background-color: #04AA6D;
+    background-color: #2d8356;
     color: white;
   }
 
@@ -44,7 +44,7 @@
   .icon-search {
     width: 30px;
     height: 30px;
-    background-color: green;
+    background-color: #2d8356;
     color: white;
     border: none;
   }

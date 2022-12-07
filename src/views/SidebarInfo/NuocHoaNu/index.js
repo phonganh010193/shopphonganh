@@ -1,16 +1,16 @@
-import IMAGE from "../../contact";
-import "../../styles/nuochoanam.css";
+import IMAGE from "../../../contact";
+import "../../../styles/nuochoanam.css";
 
 function NuocHoaNu() {
     return (
         <div className="men-container">
-            <p style={{borderBottom:"1px solid gray"}}>Trang chủ / <span style={{color: "#2d8356"}}>Nước hoa Nữ</span></p>
+            <p style={{ borderBottom: "1px solid gray" }}>Trang chủ / <span style={{ color: "#2d8356" }}>Nước hoa Nữ</span></p>
             <h4>NƯỚC HOA NỮ</h4>
             <div className="men-list">
                 <div className="men-item">
                     <img src={IMAGE.DIOE_GIRL} className="men-image" alt="" />
-                    <div class="btn-children">
-                        <div class="btn-content">
+                    <div className="btn-children">
+                        <div className="btn-content">
                             <button>Mua sản phẩm</button>
                             <button>Xem chi tiết</button>
                         </div>
@@ -23,8 +23,8 @@ function NuocHoaNu() {
                 </div>
                 <div className="men-item">
                     <img src={IMAGE.BURBERRY_GIRL} className="men-image" alt="" />
-                    <div class="btn-children">
-                        <div class="btn-content">
+                    <div className="btn-children">
+                        <div className="btn-content">
                             <button>Mua sản phẩm</button>
                             <button>Xem chi tiết</button>
                         </div>
@@ -37,8 +37,8 @@ function NuocHoaNu() {
                 </div>
                 <div className="men-item">
                     <img src={IMAGE.GOODGIRL} className="men-image" alt="" />
-                    <div class="btn-children">
-                        <div class="btn-content">
+                    <div className="btn-children">
+                        <div className="btn-content">
                             <button>Mua sản phẩm</button>
                             <button>Xem chi tiết</button>
                         </div>
@@ -51,8 +51,8 @@ function NuocHoaNu() {
                 </div>
                 <div className="men-item">
                     <img src={IMAGE.MONT_BALNC} className="men-image" alt="" />
-                    <div class="btn-children">
-                        <div class="btn-content">
+                    <div className="btn-children">
+                        <div className="btn-content">
                             <button>Mua sản phẩm</button>
                             <button>Xem chi tiết</button>
                         </div>
@@ -65,8 +65,8 @@ function NuocHoaNu() {
                 </div>
                 <div className="men-item">
                     <img src={IMAGE.BLUE_CHANEL} className="men-image" alt="" />
-                    <div class="btn-children">
-                        <div class="btn-content">
+                    <div className="btn-children">
+                        <div className="btn-content">
                             <button>Mua sản phẩm</button>
                             <button>Xem chi tiết</button>
                         </div>
@@ -79,8 +79,8 @@ function NuocHoaNu() {
                 </div>
                 <div className="men-item">
                     <img src={IMAGE.DHERMES} className="men-image" alt="" />
-                    <div class="btn-children">
-                        <div class="btn-content">
+                    <div className="btn-children">
+                        <div className="btn-content">
                             <button>Mua sản phẩm</button>
                             <button>Xem chi tiết</button>
                         </div>
@@ -93,8 +93,8 @@ function NuocHoaNu() {
                 </div>
                 <div className="men-item">
                     <img src={IMAGE.LE_LABO_ANOTHER_13} className="men-image" alt="" />
-                    <div class="btn-children">
-                        <div class="btn-content">
+                    <div className="btn-children">
+                        <div className="btn-content">
                             <button>Mua sản phẩm</button>
                             <button>Xem chi tiết</button>
                         </div>
@@ -107,8 +107,8 @@ function NuocHoaNu() {
                 </div>
                 <div className="men-item">
                     <img src={IMAGE.chanel_homme} className="men-image" alt="" />
-                    <div class="btn-children">
-                        <div class="btn-content">
+                    <div className="btn-children">
+                        <div className="btn-content">
                             <button>Mua sản phẩm</button>
                             <button>Xem chi tiết</button>
                         </div>
@@ -121,8 +121,8 @@ function NuocHoaNu() {
                 </div>
                 <div className="men-item">
                     <img src={IMAGE.heroes} className="men-image" alt="" />
-                    <div class="btn-children">
-                        <div class="btn-content">
+                    <div className="btn-children">
+                        <div className="btn-content">
                             <button>Mua sản phẩm</button>
                             <button>Xem chi tiết</button>
                         </div>
@@ -134,12 +134,12 @@ function NuocHoaNu() {
                     </div>
                 </div>
             </div>
-            <ul class="pagination">
-                <li class="page-item"><a class="page-link" href="#">Trước</a></li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+            <ul className="pagination">
+                <li className="page-item"><a className="page-link" href="#">Trước</a></li>
+                <li className="page-item"><a className="page-link" href="#">1</a></li>
+                <li className="page-item"><a className="page-link" href="#">2</a></li>
+                <li className="page-item"><a className="page-link" href="#">3</a></li>
+                <li className="page-item"><a className="page-link" href="#">Sau</a></li>
             </ul>
         </div>
     );

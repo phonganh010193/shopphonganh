@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import IMAGE from "../../../contact";
 import "../../../styles/navbar.css";
 
@@ -5,15 +6,15 @@ function NavbarShop() {
     return (
         <div className="container-fluid">
             <div className="row row-navbar">
-                <div class="col-lg-8 topnav">
+                <div className="col-lg-8 topnav">
                     <div>
-                        <a href="#home">Trang Chủ</a>
-                        <a href="#news">Tư Vấn</a>
-                        <a href="#contact">Giới Thiệu</a>
-                        <a href="#about">Sản Phẩm</a>
-                        <a href="#about">Mỹ Phẩm</a>
-                        <a href="#about">Liên Hệ</a>
-                        <a href="#about">Dịch Vụ Mới</a>
+                        <Link to="/">Trang Chủ</Link>
+                        <Link to="#news">Tư Vấn</Link>
+                        <Link to="#contact">Giới Thiệu</Link>
+                        <Link to="#about">Sản Phẩm</Link>
+                        <Link to="#about">Mỹ Phẩm</Link>
+                        <Link to="#about">Liên Hệ</Link>
+                        <Link to="#about">Dịch Vụ Mới</Link>
                     </div>
                     <div className="search-content">
                         <form className="form-search">
